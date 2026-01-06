@@ -1,4 +1,4 @@
-<img width="1876" height="902" alt="Security Monitoring Role with custom policy premissions attached" src="https://github.com/user-attachments/assets/68b8206a-5a48-4cc4-b7ea-0ecdd14734dc" /># AWS-Cloud-Security-Monitoring
+# AWS-Cloud-Security-Monitoring
 # Project Overview:
 
 <img width="737" height="1036" alt="Untitled Diagram drawio (3)" src="https://github.com/user-attachments/assets/fe8ed15e-acae-44ce-82f7-a62f9f07302a" />
