@@ -1,5 +1,5 @@
 # AWS-Cloud-Security-Monitoring
-#Project Overview:
+# Project Overview:
 
 <img width="737" height="1036" alt="Untitled Diagram drawio (3)" src="https://github.com/user-attachments/assets/fe8ed15e-acae-44ce-82f7-a62f9f07302a" />
 
