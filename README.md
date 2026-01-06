@@ -11,47 +11,52 @@ The project focuses on AWS cloud security best practices without using third-par
 
 # AWS Services Used in this Project are:
 
-Amazon S3
+# Amazon S3
+
+Two S3 Buckets are Created 
+
+- secure-file-sharing-immutable-smah for the Storing of the Files
+- secure-file-logs-smah for storing the logs ( can be used to visualize the data on AWS Quicksight or can be used by AWS Athena to perform analytics on it )
 
 <img width="1874" height="864" alt="S3 Buckets Created" src="https://github.com/user-attachments/assets/fccdc35d-856a-4f6a-ab0f-f6032ff16c7b" />
 
-AWS IAM
+# AWS IAM
 
 <img width="1877" height="899" alt="File Uploader Role Created with s3 custom policy attached" src="https://github.com/user-attachments/assets/f3ddb789-fa78-45f2-a35b-2814ba9ddf6a" />
 
-AWS CloudTrail
+# AWS CloudTrail
 
 <img width="1876" height="901" alt="Cloud Trail Multi Region Enabled For Audit Trail stored in existing S3 Bucket for logs" src="https://github.com/user-attachments/assets/3b92b9c2-133d-4360-9d59-d6a5f6c4752e" />
 
-Amazon GuardDuty
+# Amazon GuardDuty
 
 <img width="1877" height="903" alt="Guard Duty Enabled That monitors s3,api calls, and suspicious behavior" src="https://github.com/user-attachments/assets/b5220f67-2442-4c8d-849c-6b945f0833a5" />
 
-Amazon Macie
+# Amazon Macie
 
 <img width="1877" height="949" alt="Amazon Macie with Job Created for s3" src="https://github.com/user-attachments/assets/3b2812b6-1ed8-483a-a351-2a6e8ef18abf" />
 
-AWS Config
+# AWS Config
 
 <img width="1876" height="912" alt="AWS Config Rule 1" src="https://github.com/user-attachments/assets/c7e2b3bb-006b-4231-bb66-71e073e1bb9b" />
 <img width="1876" height="945" alt="AWS Config Rule 2" src="https://github.com/user-attachments/assets/c7604148-cc81-4da6-850e-82fb9d5e5eef" />
 <img width="1877" height="955" alt="AWS Config Rule 3" src="https://github.com/user-attachments/assets/9a9cf905-9123-4837-aed8-f90c6555dac5" />
 
-AWS Security Hub
+# AWS Security Hub
 
 <img width="1876" height="901" alt="Security Hub Enabled" src="https://github.com/user-attachments/assets/fe025ca8-cdf5-4f7b-b496-8bb962382043" />
 <img width="1877" height="904" alt="Security Hub Initial Scan Condition" src="https://github.com/user-attachments/assets/30fa275f-2160-4e20-a4ce-5d20e96b9217" />
 
-Amazon EventBridge
+# Amazon EventBridge
 
 <img width="1875" height="951" alt="EventBridge Rule to send notification from guard duty to sns email" src="https://github.com/user-attachments/assets/921e8b95-3a40-4e5d-8b82-1ab60f3dbcb4" />
 <img width="1876" height="950" alt="Eventbridge rule to send notifications from Amazon Macie to SNS " src="https://github.com/user-attachments/assets/c0110062-28f5-4029-bace-231222845cbb" />
 
-Amazon SNS
+# Amazon SNS
 
 <img width="1876" height="954" alt="SNS Security Alerts Topic" src="https://github.com/user-attachments/assets/3f46dabd-a19e-4dd5-9158-a8f9cb776bb0" />
 
-Amazon S3 Glacier
+# Amazon S3 Glacier
 
 <img width="1877" height="948" alt="Configure Lifecycle Policy to move to Glacier Flexible Reterive after 30 days" src="https://github.com/user-attachments/assets/bd28d960-8a0c-4235-8b68-02045a3806ee" />
 
