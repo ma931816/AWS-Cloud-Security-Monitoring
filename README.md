@@ -12,24 +12,37 @@ The project focuses on AWS cloud security best practices without using third-par
 # AWS Services Used in this Project are:
 
 Amazon S3
+
 AWS IAM
+
 AWS CloudTrail
+
 Amazon GuardDuty
+
 Amazon Macie
+
 AWS Config
+
 AWS Security Hub
+
 Amazon EventBridge
+
 Amazon SNS
+
 Amazon S3 Glacier
 
 # IAM Roles used in this Project:
 
 1.FileUploaderRole
+
 Purpose: Allow users/applications to upload files to S3
+
 Permissions: s3:PutObject, s3:GetObject, s3:ListBucket
 
 2.Service-linked Roles
+
 Used by GuardDuty, Macie, Security Hub, and Config for monitoring and compliance
+
 Allow AWS services to read logs and generate findings
 
 # Step-by-Step Flow of the Enitre Usage Process of the Architecture:
