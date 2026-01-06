@@ -24,19 +24,23 @@ Two S3 Buckets are Created
 
 - By using IAM Roles, the File Uploader Role was Created that is attached with Custom S3 Policy having premissions for successfully putting object in the bucket, to get the object and to list the buckets
 <img width="1877" height="899" alt="File Uploader Role Created with s3 custom policy attached" src="https://github.com/user-attachments/assets/f3ddb789-fa78-45f2-a35b-2814ba9ddf6a" />
+
 - By using IAM Roles, the Security Monitoring Role was Created that have the Premissions policy attached having full access to Amazon GuardDuty, Amazon Macie, Amazon S3 Read Only Access and AWS Security Hub Full Access
 <img width="1876" height="902" alt="Security Monitoring Role with custom policy premissions attached" src="https://github.com/user-attachments/assets/1e11fb96-6b82-4b5b-addb-32b6e4457297" />
 
 # AWS CloudTrail
 
+- Cloud Trail was Created for Logging all the activity
 <img width="1876" height="901" alt="Cloud Trail Multi Region Enabled For Audit Trail stored in existing S3 Bucket for logs" src="https://github.com/user-attachments/assets/3b92b9c2-133d-4360-9d59-d6a5f6c4752e" />
 
 # Amazon GuardDuty
 
+- Amazon GuardDuty was Enabled to Monitor the S3, API Calls and the Suspicious Behavior
 <img width="1877" height="903" alt="Guard Duty Enabled That monitors s3,api calls, and suspicious behavior" src="https://github.com/user-attachments/assets/b5220f67-2442-4c8d-849c-6b945f0833a5" />
 
 # Amazon Macie
 
+- Amazon Macie Created to Scans S3 Bucket for Any Sensitive Information
 <img width="1877" height="949" alt="Amazon Macie with Job Created for s3" src="https://github.com/user-attachments/assets/3b2812b6-1ed8-483a-a351-2a6e8ef18abf" />
 
 # AWS Config
@@ -47,20 +51,25 @@ Two S3 Buckets are Created
 
 # AWS Security Hub
 
+- AWS Security Hub was Enabled that will provide Central View of Security Condition of your Resources and Available Threats to the Resources
 <img width="1876" height="901" alt="Security Hub Enabled" src="https://github.com/user-attachments/assets/fe025ca8-cdf5-4f7b-b496-8bb962382043" />
-<img width="1877" height="904" alt="Security Hub Initial Scan Condition" src="https://github.com/user-attachments/assets/30fa275f-2160-4e20-a4ce-5d20e96b9217" />
 
 # Amazon EventBridge
 
+- In the Amazon EventBridge, the Rule was Created to Send Notification of Security Events coming from GuardDuty to the Users through Amazon SNS
 <img width="1875" height="951" alt="EventBridge Rule to send notification from guard duty to sns email" src="https://github.com/user-attachments/assets/921e8b95-3a40-4e5d-8b82-1ab60f3dbcb4" />
+
+- In the Amazon EventBridge, the Rule was Created to Send Notification of Security Events coming from GuardDuty to the Users through Amazon SNS
 <img width="1876" height="950" alt="Eventbridge rule to send notifications from Amazon Macie to SNS " src="https://github.com/user-attachments/assets/c0110062-28f5-4029-bace-231222845cbb" />
 
 # Amazon SNS
 
+- SNS Alert was Created to Send the Security Events Info coming from EventBridge to Specific Users subscribed to the Topic 
 <img width="1876" height="954" alt="SNS Security Alerts Topic" src="https://github.com/user-attachments/assets/3f46dabd-a19e-4dd5-9158-a8f9cb776bb0" />
 
 # Amazon S3 Glacier
 
+- The S3 Lifecycle Policy Configured to move the Logs from S3 to S3 Glacier Flexible Reterive to Achieve Cost-Efficiency
 <img width="1877" height="948" alt="Configure Lifecycle Policy to move to Glacier Flexible Reterive after 30 days" src="https://github.com/user-attachments/assets/bd28d960-8a0c-4235-8b68-02045a3806ee" />
 
 # IAM Roles used in this Project:
