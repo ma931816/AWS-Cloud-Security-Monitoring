@@ -1,4 +1,4 @@
-# AWS-Cloud-Security-Monitoring
+<img width="1876" height="902" alt="Security Monitoring Role with custom policy premissions attached" src="https://github.com/user-attachments/assets/43287a0c-60bd-4a53-a411-ef929e619def" /># AWS-Cloud-Security-Monitoring
 # Project Overview:
 
 This project demonstrates a secure, monitored, and compliant cloud storage system using AWS managed services.
@@ -22,7 +22,10 @@ Two S3 Buckets are Created
 
 # AWS IAM
 
+- By using IAM Roles, the File Uploader Role was Created that is attached with Custom S3 Policy having premissions for successfully putting object in the bucket, to get the object and to list the buckets
 <img width="1877" height="899" alt="File Uploader Role Created with s3 custom policy attached" src="https://github.com/user-attachments/assets/f3ddb789-fa78-45f2-a35b-2814ba9ddf6a" />
+- By using IAM Roles, the Security Monitoring Role was Created that have the Premissions policy attached having full access to Amazon GuardDuty, Amazon Macie, Amazon S3 Read Only Access and AWS Security Hub Full Access
+<img width="1876" height="902" alt="Security Monitoring Role with custom policy premissions attached" src="https://github.com/user-attachments/assets/1e11fb96-6b82-4b5b-addb-32b6e4457297" />
 
 # AWS CloudTrail
 
