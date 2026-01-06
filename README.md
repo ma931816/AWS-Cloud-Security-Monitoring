@@ -3,6 +3,7 @@
 
 <img width="737" height="1036" alt="Untitled Diagram drawio (3)" src="https://github.com/user-attachments/assets/fe8ed15e-acae-44ce-82f7-a62f9f07302a" />
 
+
 This project demonstrates a secure, monitored, and compliant cloud storage system using AWS managed services.
 Files uploaded to S3 are encrypted, immutable, and monitored for threats and sensitive data. Security Hub centralizes all findings, and alerts are sent to the security team automatically.
 
@@ -23,7 +24,7 @@ Amazon S3 Glacier
 
 # IAM Roles used in this Project:
 
-1. FileUploaderRole
+1.FileUploaderRole
 Purpose: Allow users/applications to upload files to S3
 Permissions: s3:PutObject, s3:GetObject, s3:ListBucket
 
@@ -52,7 +53,11 @@ Alerts: EventBridge routes security findings to SNS, which sends email notificat
 # The Security Features Implemented in this Project are:
 
 Encryption at rest using SSE-KMS
+
 Object immutability using S3 Object Lock
+
 MFA-protected deletion
+
 Least-privilege IAM roles
+
 Continuous monitoring and alerting
