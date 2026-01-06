@@ -1,4 +1,4 @@
-<img width="1876" height="902" alt="Security Monitoring Role with custom policy premissions attached" src="https://github.com/user-attachments/assets/43287a0c-60bd-4a53-a411-ef929e619def" /># AWS-Cloud-Security-Monitoring
+# AWS-Cloud-Security-Monitoring
 # Project Overview:
 
 This project demonstrates a secure, monitored, and compliant cloud storage system using AWS managed services.
