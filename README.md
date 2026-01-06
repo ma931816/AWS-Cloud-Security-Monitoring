@@ -33,13 +33,13 @@ Amazon S3 Glacier
 
 # IAM Roles used in this Project:
 
-1.FileUploaderRole
+1. FileUploaderRole
 
 Purpose: Allow users/applications to upload files to S3
 
 Permissions: s3:PutObject, s3:GetObject, s3:ListBucket
 
-2.Service-linked Roles
+2. Service-linked Roles
 
 Used by GuardDuty, Macie, Security Hub, and Config for monitoring and compliance
 
