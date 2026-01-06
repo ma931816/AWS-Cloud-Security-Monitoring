@@ -1,13 +1,13 @@
 # AWS-Cloud-Security-Monitoring
 # Project Overview:
 
-<img width="737" height="1036" alt="Untitled Diagram drawio (3)" src="https://github.com/user-attachments/assets/fe8ed15e-acae-44ce-82f7-a62f9f07302a" />
-
-
 This project demonstrates a secure, monitored, and compliant cloud storage system using AWS managed services.
 Files uploaded to S3 are encrypted, immutable, and monitored for threats and sensitive data. Security Hub centralizes all findings, and alerts are sent to the security team automatically.
 
 The project focuses on AWS cloud security best practices without using third-party workflow tools.
+
+<img width="737" height="1036" alt="Untitled Diagram drawio (3)" src="https://github.com/user-attachments/assets/fe8ed15e-acae-44ce-82f7-a62f9f07302a" />
+
 
 # AWS Services Used in this Project are:
 
